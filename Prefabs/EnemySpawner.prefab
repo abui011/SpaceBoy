@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1301327046094124}
+  m_IsPrefabParent: 1
+--- !u!1 &1301327046094124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4955182146548264}
+  - component: {fileID: 114008756176373546}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4955182146548264
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301327046094124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114008756176373546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301327046094124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b2bdd6ff37c4e64be598af176c1960, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveConfigs:
+  - {fileID: 11400000, guid: 6f209c55971e74df3be7c175357e043c, type: 2}
+  - {fileID: 11400000, guid: ec32f62aa679b4452b55503be8f851b0, type: 2}
+  - {fileID: 11400000, guid: 4cbd7e1df2fb24f64acc99318f1de5d2, type: 2}
+  - {fileID: 11400000, guid: 829a3df5065df4b2fb7fe715b65c565a, type: 2}
+  - {fileID: 11400000, guid: 9230bcb4d8c1c409a90e4a240f7962e9, type: 2}
+  - {fileID: 11400000, guid: ec32f62aa679b4452b55503be8f851b0, type: 2}
+  - {fileID: 11400000, guid: 829a3df5065df4b2fb7fe715b65c565a, type: 2}
